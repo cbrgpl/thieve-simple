@@ -1,0 +1,24 @@
+{
+  "name": "archiver",
+  "version": "1.0.0",
+  "description": "studing project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "engines": {
+    "node": ">=11.14.0"
+  },
+  "author": "cbrgpl",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

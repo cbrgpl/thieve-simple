@@ -1,0 +1,75 @@
+{
+  "env": {
+    "node": true
+  },
+  "plugins": ["import"],
+  "extends": [
+    "plugin:node/recommended",
+    "airbnb-base"
+  ],
+  "rules": {
+    // eslint-default-rules
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "max-len": ["error", {"code": 150} ],
+    "indent": [
+      "error",
+      2
+    ],
+    "no-console": [
+      "warn"
+    ],
+    "no-debugger": [
+      "error"
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always",
+      {
+        "singleValue": true,
+        "objectsInArrays": true,
+        "arraysInArrays": true
+      }
+    ],
+    "camelcase": [
+      "error",
+      {
+        "properties": "always"
+      }
+    ],
+    "comma-dangle": [
+      1,
+      "only-multiline"
+    ],
+    "space-in-parens": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "computed-property-spacing": [
+      "error",
+      "always"
+    ],
+    "no-restricted-syntax": ["off"],
+    // eslint-plugin-node
+    "node/exports-style": [
+      "error",
+      "module.exports"
+    ],
+    "node/no-unpublished-require": "off",
+    "node/file-extension-in-import": [
+      "error",
+      "always"
+    ]
+  },
+  "root": true
+}
